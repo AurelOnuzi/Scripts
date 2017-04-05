@@ -3,7 +3,7 @@
 
 #user input handling
 Param (
-    [String]$userfile = $( Read-Host -Prompt "Enter a filename or foldername to analyze: ") ,
+    	[String]$userfile = $( Read-Host -Prompt "Enter a filename or foldername to analyze: ") ,
 	[String]$userreplace = $( Read-Host -Prompt "Enter a find and replace CSV file: " ),
 	[String]$userpref = $( Read-Host -Prompt "Do you want to overwrite the file (enter 0) or save in a new location(enter 1): " )
 )
